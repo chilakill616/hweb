@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <!--
+        Información técnica, descriptiva y de configuración de un documento Web
+        dirigita a  navegadores, motores de búsqueda y otros servicios.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web autobiográfica estructurada con HTML5 semántico.">
+    <title>Biografía - Ricardo Rodriguez Hernandez</title>
+</head>
+<body>
+    <header>
+        <h1>Ricardo Rodriguez Hernandez</h1>
+         <p>Estudiante de Ingeniería en Tecnologias de la informacion apasionado por la Tecnología</p>
+       
+        <!-- Navegación Interna (aria-label describe) -->
+         <nav aria-label="Menú principal">
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#formacion">Formación Académica</a></li>
+                <li><a href="#proyectos">Proyectos y Habilidades</a></li>
+                <li><a href="#intereses">Intereses</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <figure>
+                <img src="https://via.placeholder.com/150&quot; alt="Fotografía de perfil de [Tu Nombre]">
+                <figcaption>Fotografía académica reciente.</figcaption>
+            </figure>
+            <p>
+                Escribe aquí una breve presentación personal. Explica quién eres, tus motivaciones
+                y tus metas académicas o profesionales a corto y largo plazo.
+            </p>
+        </section>
+
+        <section id="formacion">
+            <h2>Formación Académica</h2>
+            <article>
+                <h3>Licenciatura en Tecnología / Computación</h3>
+                <p><strong>Institución:</strong> Universidad (BUAP)</p>
+                <p><strong>Periodo:</strong> 2023 - Presente</p>
+                <p>Actualmente cursando asignaturas enfocadas en desarrollo web, estructuras de datos y desarrollo de software.</p>
+            </article>
+
+        </section>
+
+        <section id="proyectos">
+            <h2>Proyectos y Habilidades Técnicas</h2>
+           
+            <h3>Habilidades Destacadas</h3>
+            <ul>
+                <li>HTML5 y marcado semántico</li>
+                <li>Lógica de programación y algoritmos</li>
+                <li>Control de versiones con Git</li>
+            </ul>
+
+            <h3>Proyectos Recientes</h3>
+            <ol>
+                <li>
+                    <strong>Sitio Web Autobiográfico:</strong> Implementación de mejora progresiva y semántica en HTML.
+                </li>
+                <li>
+                    <strong>Repositorio de Prácticas:</strong> Control de evidencias académicas en GitHub.
+                </li>
+            </ol>
+        </section>
+
+        <section id="intereses">
+            <h2>Intereses y Pasatiempos</h2>
+            <p>Áreas de interés profesional y personal:</p>
+            <dl>
+                <dt>Desarrollo Web</dt>
+                <dd>Diseño de interfaces accesibles, estándares W3C y optimización.</dd>
+               
+                <dt>Música / Lectura</dt>
+                <dd>Descripción breve de tus aficiones o gustos musicales.</dd>
+            </dl>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Puedes enviarme un mensaje directamente utilizando el siguiente formulario:</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Formulario de Contacto</legend>
+
+                    <div>
+                        <label for="nombre">Nombre completo:</label>
+                        <input type="text" id="nombre" name="nombre" required placeholder="Ej. Juan Pérez">
+                    </div>
+
+                    <div>
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" required placeholder="ejemplo@dominio.com">
+                    </div>
+
+                    <div>
+                        <label for="asunto">Asunto:</label>
+                        <select id="asunto" name="asunto">
+                            <option value="academico">Consulta Académica</option>
+                            <option value="colaboracion">Colaboración / Proyecto</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+
+                    <button type="submit">Enviar Mensaje</button>
+                </fieldset>
+            </form>
+        </section>
+
+        </main><!-- Pie de Página -->
+
+    <footer>
+        <p>&copy; 2026 [Tu Nombre Completo]. Todos los derechos reservados.</p>
+        <p>Desarrollado bajo principios de accesibilidad y Mejora Progresiva.</p>
+    </footer>
+    
+</body>
+</html>
